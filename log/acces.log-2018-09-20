@@ -1,0 +1,2 @@
+[2018-09-20T11:58:06.509] [ERROR] http - 127.0.0.1 - - "POST /register HTTP/1.1" 500 239 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
+[2018-09-20T11:59:28.073] [INFO] http - 127.0.0.1 - - "POST /register HTTP/1.1" 200 247 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"

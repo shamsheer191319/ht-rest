@@ -1,0 +1,64 @@
+[2018-09-20T11:58:06.501] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "wikky@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "wikky@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-10-01T12:58:56.223] [ERROR] error - Failed to Register a User,Required Fields are Missing
+[2018-10-01T13:00:13.518] [ERROR] error - Failed to Register a User,Required Fields are Missing
+[2018-10-01T13:02:56.073] [ERROR] error - Failed to Register a User,Required Fields are Missing
+[2018-10-01T13:03:14.889] [ERROR] error - Failed to Register a User,Required Fields are Missing
+[2018-10-01T13:03:27.619] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-10-01T13:07:50.618] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample1@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample1@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-10-01T13:12:34.099] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }

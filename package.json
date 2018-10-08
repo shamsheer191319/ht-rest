@@ -1,0 +1,24 @@
+{
+  "name": "hotel-mng-pro",
+  "version": "1.0.0",
+  "description": "This is Hotel Management Project As Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "ThisISMYPRO"
+  ],
+  "author": "Wahid Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "log4js": "^3.0.5",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.14"
+  }
+}

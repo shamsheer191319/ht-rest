@@ -1,0 +1,413 @@
+[2018-09-20T11:58:06.235] [INFO] access - Hit POST /register
+[2018-09-20T11:58:06.332] [INFO] access - Registration Hit /register
+[2018-09-20T11:58:06.501] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "wikky@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "wikky@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-09-20T11:59:27.963] [INFO] access - Hit POST /register
+[2018-09-20T11:59:27.965] [INFO] access - Registration Hit /register
+[2018-09-20T11:59:28.072] [INFO] user - User is Register with Token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmEzM2U0OGJmYzU2NTM4MDBmNGFkMzEiLCJpYXQiOjE1Mzc0MjQ5NjgsImV4cCI6MTUzNzQ2ODE2OH0.81EnX9qtECWmBR3N8ZpUtUMnnw-7144DlzaC357S9-s
+[2018-09-28T12:32:04.857] [INFO] startup - Magic Happens On Port :3000
+[2018-09-28T12:32:04.859] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-09-28T12:33:11.043] [INFO] access - Hit POST /hotels
+[2018-09-28T12:33:16.696] [INFO] access - Hit GET /hotels
+[2018-09-28T12:33:55.446] [INFO] startup - Magic Happens On Port :3000
+[2018-09-28T12:33:55.448] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-09-28T12:33:57.368] [INFO] access - Hit GET /hotels
+[2018-09-28T12:36:49.800] [INFO] access - Hit GET /hotels
+[2018-09-28T12:40:47.526] [INFO] startup - Magic Happens On Port :3000
+[2018-09-28T12:40:47.528] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-09-28T12:40:50.344] [INFO] access - Hit GET /hotels
+[2018-09-28T12:42:57.016] [INFO] access - Hit GET /hotels
+[2018-09-28T12:43:03.226] [INFO] access - Hit GET /hotels
+[2018-09-28T12:43:57.275] [INFO] access - Hit GET /hotels
+[2018-09-28T12:44:53.156] [INFO] access - Hit GET /hotels
+[2018-09-28T12:45:28.493] [INFO] access - Hit GET /hotels
+[2018-09-28T12:45:55.169] [INFO] access - Hit GET /hotels
+[2018-09-28T12:45:57.473] [INFO] access - Hit GET /hotels
+[2018-09-29T11:51:02.614] [INFO] startup - Magic Happens On Port :3000
+[2018-09-29T11:51:02.615] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-09-29T11:51:10.124] [INFO] access - Hit GET /hotels
+[2018-09-29T11:52:32.196] [INFO] access - Hit GET /hotels
+[2018-09-29T11:56:26.491] [INFO] access - Hit GET /hotels
+[2018-09-29T11:57:01.425] [INFO] access - Hit GET /hotels
+[2018-09-29T11:58:35.996] [INFO] access - Hit GET /hotels
+[2018-09-29T11:58:49.304] [INFO] access - Hit GET /hotels
+[2018-09-29T11:59:18.648] [INFO] access - Hit GET /hotels
+[2018-09-29T11:59:42.930] [INFO] access - Hit GET /hotels
+[2018-09-29T11:59:47.554] [INFO] access - Hit GET /hotels
+[2018-09-29T12:00:01.445] [INFO] access - Hit GET /hotels?offset=0&count=0
+[2018-09-29T12:00:25.646] [INFO] access - Hit GET /hotels?offset=5&count=5
+[2018-09-29T12:00:27.428] [INFO] access - Hit GET /hotels?offset=10&count=10
+[2018-09-29T12:00:30.400] [INFO] access - Hit GET /hotels?offset=0&count=0
+[2018-09-29T12:01:18.101] [INFO] access - Hit GET /hotels
+[2018-09-29T12:01:22.664] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:01:38.708] [INFO] access - Hit GET /hotels?offset=5&count=6
+[2018-09-29T12:01:44.688] [INFO] access - Hit GET /hotels?offset=10&count=6
+[2018-09-29T12:01:53.877] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:02:02.932] [INFO] access - Hit GET /hotels?offset=5&count=6
+[2018-09-29T12:02:08.094] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:03:00.745] [INFO] access - Hit GET /hotels
+[2018-09-29T12:03:03.330] [INFO] access - Hit GET /hotels
+[2018-09-29T12:03:05.859] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:03:08.711] [INFO] access - Hit GET /hotels?offset=5&count=6
+[2018-09-29T12:03:10.597] [INFO] access - Hit GET /hotels?offset=10&count=6
+[2018-09-29T12:03:12.727] [INFO] access - Hit GET /hotels?offset=5&count=6
+[2018-09-29T12:03:13.866] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:07:57.925] [INFO] access - Hit GET /hotels
+[2018-09-29T12:12:48.454] [INFO] access - Hit GET /hotels
+[2018-09-29T12:12:51.765] [INFO] access - Hit GET /hotels
+[2018-09-29T12:12:54.701] [INFO] access - Hit GET /hotels?offset=6&count=5
+[2018-09-29T12:13:02.893] [INFO] access - Hit GET /hotels?offset=12&count=5
+[2018-09-29T12:13:04.795] [INFO] access - Hit GET /hotels?offset=18&count=5
+[2018-09-29T12:13:06.308] [INFO] access - Hit GET /hotels?offset=24&count=5
+[2018-09-29T12:13:11.733] [INFO] access - Hit GET /hotels?offset=30&count=5
+[2018-09-29T12:13:15.817] [INFO] access - Hit GET /hotels?offset=36&count=5
+[2018-09-29T12:13:43.893] [INFO] access - Hit GET /hotels
+[2018-09-29T12:14:06.321] [INFO] access - Hit GET /hotels
+[2018-09-29T12:14:12.712] [INFO] access - Hit GET /hotels
+[2018-09-29T12:14:18.482] [INFO] access - Hit GET /hotels
+[2018-09-29T12:14:21.187] [INFO] access - Hit GET /hotels
+[2018-09-29T12:14:23.322] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:14:28.253] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:14:53.699] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:14:54.306] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:14:55.506] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:14:56.004] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:23:06.997] [INFO] access - Hit GET /hotels
+[2018-09-29T12:23:16.595] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:23:19.056] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:23:19.723] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:23:20.479] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:23:21.175] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:23:23.180] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:23:24.651] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:23:43.392] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:23:47.414] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:23:49.149] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:23:50.337] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:23:51.696] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:24:01.220] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:24:07.535] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:24:07.916] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:24:08.238] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:24:08.523] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:24:08.808] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:24:10.195] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:25:34.760] [INFO] access - Hit GET /hotels
+[2018-09-29T12:25:52.592] [INFO] access - Hit GET /hotels
+[2018-09-29T12:25:59.017] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:25:59.758] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:26:00.416] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:26:01.208] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:26:01.987] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:26:02.780] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:26:12.870] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:26:23.988] [INFO] access - Hit GET /hotels
+[2018-09-29T12:26:25.674] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:26:26.367] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:26:26.959] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:26:27.517] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:26:28.325] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:26:29.794] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:26:41.298] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:27:28.624] [INFO] access - Hit GET /hotels
+[2018-09-29T12:27:39.928] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:27:53.023] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:28:03.685] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:28:24.589] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:28:39.177] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:28:49.967] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:28:54.482] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:29:01.859] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:30:04.926] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:30:06.365] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:30:07.479] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:30:08.658] [INFO] access - Hit GET /hotels?offset=36&count=6
+[2018-09-29T12:30:25.158] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:25.518] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:25.702] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:25.873] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:26.063] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:26.251] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:26.446] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:26.631] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:26.867] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:30:27.076] [INFO] access - Hit GET /hotels?offset=-6&count=6
+[2018-09-29T12:32:28.077] [INFO] access - Hit GET /hotels
+[2018-09-29T12:33:07.254] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:09.294] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:33:22.834] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:25.548] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:33:29.015] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:29.877] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:33:37.514] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:38.270] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:33:38.725] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:33:40.336] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:33:40.792] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:41.228] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:33:52.992] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:53.128] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:33:53.314] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:33:53.491] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:33:53.652] [INFO] access - Hit GET /hotels?offset=30&count=6
+[2018-09-29T12:33:54.453] [INFO] access - Hit GET /hotels?offset=24&count=6
+[2018-09-29T12:33:54.592] [INFO] access - Hit GET /hotels?offset=18&count=6
+[2018-09-29T12:33:54.757] [INFO] access - Hit GET /hotels?offset=12&count=6
+[2018-09-29T12:33:54.932] [INFO] access - Hit GET /hotels?offset=6&count=6
+[2018-09-29T12:33:55.113] [INFO] access - Hit GET /hotels?offset=0&count=6
+[2018-09-29T12:41:46.400] [INFO] access - Hit GET /hotels
+[2018-09-29T12:41:58.989] [INFO] access - Hit GET /hotels
+[2018-09-29T12:42:19.724] [INFO] access - Hit GET /hotels
+[2018-09-29T12:42:24.796] [INFO] access - Hit GET /hotels
+[2018-09-29T12:48:06.195] [INFO] access - Hit GET /hotels
+[2018-09-29T12:48:43.073] [INFO] access - Hit GET /hotels
+[2018-09-29T12:48:54.253] [INFO] access - Hit GET /hotels
+[2018-09-29T12:49:01.949] [INFO] access - Hit GET /hotels
+[2018-09-29T12:55:02.909] [INFO] access - Hit GET /hotels
+[2018-09-29T12:57:11.103] [INFO] access - Hit GET /hotels
+[2018-09-29T12:57:20.242] [INFO] access - Hit GET /hotels
+[2018-09-29T12:57:34.801] [INFO] access - Hit GET /hotels
+[2018-09-29T12:59:03.012] [INFO] access - Hit GET /hotels
+[2018-09-29T13:02:41.114] [INFO] access - Hit GET /hotels
+[2018-09-29T13:02:45.449] [INFO] access - Hit GET /hotels
+[2018-09-29T13:03:01.164] [INFO] access - Hit GET /hotels/5a3b406cfa92f1d123a39a2e
+[2018-09-29T13:03:15.918] [INFO] access - Hit GET /hotels
+[2018-09-29T13:03:19.752] [INFO] access - Hit GET /hotels/5a3b406cfa92f1d123a39a2f
+[2018-09-29T13:03:59.391] [INFO] access - Hit GET /hotels/5a3b406cfa92f1d123a39a2f
+[2018-10-01T11:48:34.064] [INFO] startup - Magic Happens On Port :3000
+[2018-10-01T11:48:34.066] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-01T11:51:00.274] [INFO] access - Hit GET /api/hotels
+[2018-10-01T11:51:22.395] [INFO] access - Hit GET /api/hotels/5a3b406cfa92f1d123a39a2f
+[2018-10-01T11:52:38.697] [INFO] access - Hit GET /api/hotels/5a3b406cfa92f1d123a39a2f
+[2018-10-01T12:02:14.133] [INFO] access - Hit GET /api/hotels/5a3b406cfa92f1d123a39a2f
+[2018-10-01T12:04:03.386] [INFO] access - Hit GET /api/hotels/5a3b406cfa92f1d123a39a2f
+[2018-10-01T12:23:30.766] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:23:30.782] [INFO] access - Hit POST /api/login
+[2018-10-01T12:24:33.780] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:24:33.804] [INFO] access - Hit POST /api/login
+[2018-10-01T12:24:40.122] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:24:40.140] [INFO] access - Hit POST /api/login
+[2018-10-01T12:25:04.600] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:25:04.626] [INFO] access - Hit POST /api/login
+[2018-10-01T12:26:12.689] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:26:12.698] [INFO] access - Hit POST /api/login
+[2018-10-01T12:27:19.590] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:27:19.599] [INFO] access - Hit POST /api/login
+[2018-10-01T12:27:46.606] [INFO] startup - Magic Happens On Port :3000
+[2018-10-01T12:27:46.609] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-01T12:27:49.155] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:27:49.236] [INFO] access - Hit POST /api/login
+[2018-10-01T12:29:26.438] [INFO] access - Hit POST /login
+[2018-10-01T12:29:50.444] [INFO] access - Hit POST /api/login
+[2018-10-01T12:30:13.172] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:30:13.189] [INFO] access - Hit POST /api/login
+[2018-10-01T12:31:25.639] [INFO] startup - Magic Happens On Port :3000
+[2018-10-01T12:31:25.648] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-01T12:31:30.768] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T12:31:30.785] [INFO] access - Hit POST /api/login
+[2018-10-01T12:58:39.794] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T12:58:39.834] [INFO] access - Hit POST /api/register
+[2018-10-01T12:58:39.836] [INFO] access - Registration Hit /register
+[2018-10-01T12:58:40.134] [INFO] user - User is Register with Token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmIxY2NhNzNkNTFlYTIxNTA4YzEzZWUiLCJpYXQiOjE1MzgzNzg5MjAsImV4cCI6MTUzODQyMjEyMH0.G0NgEzoMEarY9pLsGjBk0NRZeg_idx6Vaa_QXV8vNIQ
+[2018-10-01T12:58:56.187] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T12:58:56.221] [INFO] access - Hit POST /api/register
+[2018-10-01T13:00:12.226] [INFO] startup - Magic Happens On Port :3000
+[2018-10-01T13:00:12.228] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-01T13:00:13.370] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:00:13.414] [INFO] access - Hit POST /api/register
+[2018-10-01T13:02:50.152] [INFO] startup - Magic Happens On Port :3000
+[2018-10-01T13:02:50.161] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-01T13:02:56.031] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:02:56.054] [INFO] access - Hit POST /api/register
+[2018-10-01T13:02:56.072] [INFO] access - Registration Hit /register
+[2018-10-01T13:02:56.073] [ERROR] error - Failed to Register a User,Required Fields are Missing
+[2018-10-01T13:03:14.870] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:03:14.885] [INFO] access - Hit POST /api/register
+[2018-10-01T13:03:14.888] [INFO] access - Registration Hit /register
+[2018-10-01T13:03:14.889] [ERROR] error - Failed to Register a User,Required Fields are Missing
+[2018-10-01T13:03:26.885] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:03:26.905] [INFO] access - Hit POST /api/register
+[2018-10-01T13:03:26.906] [INFO] access - Registration Hit /register
+[2018-10-01T13:03:27.619] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-10-01T13:03:56.745] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:03:56.767] [INFO] access - Hit POST /api/register
+[2018-10-01T13:03:56.768] [INFO] access - Registration Hit /register
+[2018-10-01T13:03:56.892] [INFO] user - User is Register with Token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmIxY2RlNDZjMTVjMTI1ZGI0NThlNGEiLCJpYXQiOjE1MzgzNzkyMzYsImV4cCI6MTUzODQyMjQzNn0.K0blvhgxNpchsn3rEVAmJ8pOWSyrgpR6DQmVe4NeGkw
+[2018-10-01T13:07:50.497] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:07:50.514] [INFO] access - Hit POST /api/register
+[2018-10-01T13:07:50.514] [INFO] access - Registration Hit /register
+[2018-10-01T13:07:50.618] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample1@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample1@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-10-01T13:10:43.134] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:10:43.168] [INFO] access - Hit POST /api/register
+[2018-10-01T13:10:43.168] [INFO] access - Registration Hit /register
+[2018-10-01T13:10:43.321] [INFO] user - User is Register with Token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmIxY2Y3YjZjMTVjMTI1ZGI0NThlNGMiLCJpYXQiOjE1MzgzNzk2NDMsImV4cCI6MTUzODQyMjg0M30.9jPtY-DEI8y_nrkGVfYESbGTE7_XbgotaamUreVDjos
+[2018-10-01T13:10:43.392] [INFO] access - Hit GET /api/hotels
+[2018-10-01T13:12:33.951] [INFO] access - Hit OPTIONS /api/register
+[2018-10-01T13:12:33.973] [INFO] access - Hit POST /api/register
+[2018-10-01T13:12:33.975] [INFO] access - Registration Hit /register
+[2018-10-01T13:12:34.099] [ERROR] error - { error:
+   { MongoError: E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }
+       at Function.create (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/error.js:43:12)
+       at toError (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/utils.js:149:22)
+       at coll.s.topology.insert (/home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb/lib/operations/collection_ops.js:828:39)
+       at /home/waheedk/training11am/MEAN/hotel-mng-pro/node_modules/mongodb-core/lib/connection/pool.js:532:18
+       at process._tickCallback (internal/process/next_tick.js:61:11)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg:
+      'E11000 duplicate key error collection: meanhotel.hotel.usr index: email_1 dup key: { : "sample@gmail.com" }',
+     [Symbol(mongoErrorContextSymbol)]: {} },
+  messsage: 'Failed to Register a User' }
+[2018-10-01T13:14:32.890] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:14:32.909] [INFO] access - Hit POST /api/login
+[2018-10-01T13:14:33.051] [INFO] access - Hit GET /api/hotels
+[2018-10-01T13:14:59.840] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:14:59.857] [INFO] access - Hit POST /api/login
+[2018-10-01T13:18:52.269] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:18:52.284] [INFO] access - Hit POST /api/login
+[2018-10-01T13:20:12.237] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:20:12.248] [INFO] access - Hit POST /api/login
+[2018-10-01T13:22:19.577] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:22:19.602] [INFO] access - Hit POST /api/login
+[2018-10-01T13:22:59.328] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:22:59.346] [INFO] access - Hit POST /api/login
+[2018-10-01T13:23:38.011] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:23:38.023] [INFO] access - Hit POST /api/login
+[2018-10-01T13:23:48.626] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:23:48.641] [INFO] access - Hit POST /api/login
+[2018-10-01T13:23:48.796] [INFO] access - Hit GET /api/hotels
+[2018-10-01T13:27:33.220] [INFO] access - Hit GET /api/hotels
+[2018-10-01T13:27:35.304] [INFO] access - Hit GET /api/hotels
+[2018-10-01T13:27:47.449] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:27:47.463] [INFO] access - Hit POST /api/login
+[2018-10-01T13:28:27.363] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:28:27.375] [INFO] access - Hit POST /api/login
+[2018-10-01T13:29:35.754] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:29:35.770] [INFO] access - Hit POST /api/login
+[2018-10-01T13:31:04.122] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:31:04.145] [INFO] access - Hit POST /api/login
+[2018-10-01T13:31:41.045] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:31:41.067] [INFO] access - Hit POST /api/login
+[2018-10-01T13:32:11.212] [INFO] access - Hit OPTIONS /api/login
+[2018-10-01T13:32:11.235] [INFO] access - Hit POST /api/login
+[2018-10-02T11:50:32.180] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T11:50:32.182] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T11:51:00.671] [INFO] access - Hit GET /api/hotels
+[2018-10-02T11:52:22.192] [INFO] access - Hit OPTIONS /api/login
+[2018-10-02T11:52:22.221] [INFO] access - Hit POST /api/login
+[2018-10-02T11:52:22.592] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:04:35.432] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:04:40.364] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:07:47.039] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:10:40.665] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:16:15.072] [INFO] access - Hit OPTIONS /api/login
+[2018-10-02T12:16:15.096] [INFO] access - Hit POST /api/login
+[2018-10-02T12:16:15.261] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:16:56.724] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:18:02.821] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:18:52.175] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:37:46.016] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:40:05.968] [INFO] access - Hit OPTIONS /api/login
+[2018-10-02T12:40:05.977] [INFO] access - Hit POST /api/login
+[2018-10-02T12:40:06.111] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:40:14.368] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:40:22.878] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:41:02.943] [INFO] access - Hit GET /api/hotels/5a3b406cfa92f1d123a39a2f
+[2018-10-02T12:52:00.098] [INFO] access - Hit OPTIONS /api/login
+[2018-10-02T12:52:00.113] [INFO] access - Hit POST /api/login
+[2018-10-02T12:52:00.255] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:52:12.902] [INFO] access - Hit GET /api/hotels
+[2018-10-02T12:53:21.832] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:16:28.096] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:16:28.097] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:16:59.961] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:16:59.964] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:18:17.206] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:18:17.209] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:18:25.256] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:20:16.201] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:20:16.205] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:20:26.794] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:21:53.029] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:21:53.032] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:21:59.919] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:22:28.269] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:22:28.271] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:22:34.748] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:22:34.750] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:22:38.442] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:22:38.445] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:22:51.682] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:23:14.783] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:23:14.893] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:23:24.106] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:23:24.126] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:24:45.778] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:24:45.780] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:25:19.269] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:25:19.271] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:25:32.840] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:25:32.844] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
+[2018-10-02T13:25:38.437] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:25:38.463] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:27:38.617] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:27:38.636] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:28:12.898] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:28:12.919] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:29:00.991] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:29:01.030] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:29:06.990] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:29:07.012] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:29:38.492] [INFO] access - Hit OPTIONS /api/login
+[2018-10-02T13:29:38.505] [INFO] access - Hit POST /api/login
+[2018-10-02T13:29:38.867] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:29:38.889] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:34:48.561] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:34:48.580] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:42:20.033] [INFO] access - Hit OPTIONS /api/hotels
+[2018-10-02T13:42:20.118] [INFO] access - Hit GET /api/hotels
+[2018-10-02T13:45:26.493] [INFO] startup - Magic Happens On Port :3000
+[2018-10-02T13:45:26.496] [INFO] startup - Sever Runs On  http://127.0.0.1:3000
